@@ -27,7 +27,6 @@
         android:layout_height="123dp"
         android:layout_marginBottom="16dp"
         android:backgroundTint="#CC4141"
-        android:onClick="Cast"
         android:shadowColor="#000000"
         android:text="Press to cast"
         android:textColor="#000000"
