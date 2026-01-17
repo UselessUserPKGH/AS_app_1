@@ -23,17 +23,19 @@
         android:layout_width="365dp"
         android:layout_height="123dp"
         android:layout_marginBottom="16dp"
-        android:background="#FF3E3E"
-        android:backgroundTint="#BC3636"
-        android:shadowColor="#0047FF"
-        android:text="Нажмите, чтобы бросить кубик"
-        android:textColor="#000000"
+        android:background="#fafaff"
+        android:backgroundTint="#000000"
+        android:shadowColor="#000000"
+        android:text="Press to cast"
+        android:textColor="#ff5aaa"
         android:textColorLink="#490000"
         android:textSize="24sp"
         app:cornerRadius="@null"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
         app:rippleColor="#B42E2E"
-        app:strokeColor="#C71C1C"
-        tools:layout_editor_absoluteX="23dp" />
+        app:strokeColor="#C71C1C" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
