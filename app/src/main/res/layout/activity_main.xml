@@ -18,11 +18,11 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="409dp"
-        android:layout_height="163dp"
+        android:layout_width="276dp"
+        android:layout_height="50dp"
         android:text="Нажмите, чтобы бросить кубик"
         app:cornerRadius="@null"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="570dp" />
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="610dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
