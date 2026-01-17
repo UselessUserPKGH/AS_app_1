@@ -11,6 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
+        android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -18,11 +19,19 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="276dp"
-        android:layout_height="50dp"
+        android:layout_width="365dp"
+        android:layout_height="123dp"
+        android:background="#E90000"
+        android:backgroundTint="#BC3636"
+        android:shadowColor="#0047FF"
         android:text="Нажмите, чтобы бросить кубик"
+        android:textColor="#000000"
+        android:textColorLink="#490000"
+        android:textSize="24sp"
         app:cornerRadius="@null"
-        tools:layout_editor_absoluteX="67dp"
-        tools:layout_editor_absoluteY="610dp" />
+        app:rippleColor="#B42E2E"
+        app:strokeColor="#C71C1C"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="592dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
