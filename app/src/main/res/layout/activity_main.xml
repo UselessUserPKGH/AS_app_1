@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EBCCCC"
+    android:background="#000"
     tools:context=".MainActivity">
 
     <TextView
@@ -28,14 +28,14 @@
         android:shadowColor="#000000"
         android:text="Press to cast"
         android:textColor="#ff5aaa"
-        android:textColorLink="#490000"
+        android:textColorLink="#0000000"
         android:textSize="24sp"
-        app:cornerRadius="@null"
+        app:cornerRadius="400dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:rippleColor="#B42E2E"
-        app:strokeColor="#C71C1C" />
+        app:rippleColor="#000000"
+        app:strokeColor="#000000" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
