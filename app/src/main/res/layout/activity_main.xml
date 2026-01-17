@@ -22,7 +22,8 @@
         android:id="@+id/button"
         android:layout_width="365dp"
         android:layout_height="123dp"
-        android:background="#E90000"
+        android:layout_marginBottom="16dp"
+        android:background="#FF3E3E"
         android:backgroundTint="#BC3636"
         android:shadowColor="#0047FF"
         android:text="Нажмите, чтобы бросить кубик"
@@ -30,9 +31,9 @@
         android:textColorLink="#490000"
         android:textSize="24sp"
         app:cornerRadius="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:rippleColor="#B42E2E"
         app:strokeColor="#C71C1C"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="592dp" />
+        tools:layout_editor_absoluteX="23dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
