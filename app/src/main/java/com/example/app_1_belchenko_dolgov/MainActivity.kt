@@ -1,30 +1,32 @@
 package com.example.app_1_belchenko_dolgov
 
 import android.os.Bundle
-import android.widget.Button
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.app_1_belchenko_dolgov.databinding.ActivityMainBinding
 import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
 
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
+        setupButtonClickListener()
+    }
 
-        val label: TextView = findViewById(R.id.label)
-        val button: Button = findViewById(R.id.button)
-
-
-        button.setOnClickListener {
+    private fun setupButtonClickListener() {
+        binding.button.setOnClickListener {
 
             val randomNumber = Random.nextInt(1, 7)
 
 
-            label.text = randomNumber.toString()
+            val resultText = getString(R.string.dice_result_format, randomNumber)
+            binding.label.text = resultText
         }
     }
 }
