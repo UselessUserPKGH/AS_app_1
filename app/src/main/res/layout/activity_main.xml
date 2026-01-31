@@ -5,22 +5,21 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#683737"
+    android:background="#8E3F3F"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Randomaizer"
+        android:text="@string/app_title"
         android:textColor="#FF4545"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.449" />
+        app:layout_constraintVertical_bias="0.5" />
 
     <Button
         android:id="@+id/button"
@@ -28,17 +27,15 @@
         android:layout_height="123dp"
         android:layout_marginBottom="16dp"
         android:backgroundTint="#CC4141"
-        android:shadowColor="#000000"
-        android:text="Press to cast"
-        android:textColor="#000000"
+        android:text="@string/button_text"
+        android:textColor="#fff"
         android:textColorLink="#E75D5D"
         android:textSize="24sp"
         app:cornerRadius="400dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:rippleColor="#000000"
-        app:strokeColor="#000000" />
+        app:rippleColor="#fff"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
